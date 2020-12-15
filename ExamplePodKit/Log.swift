@@ -11,4 +11,8 @@ class Log: NSObject {
     class func logString(string: String) {
         debugPrint("value is " + string)
     }
+    
+    class func logInt(digi: Int) {
+        print("digi = \(digi)")
+    }
 }
